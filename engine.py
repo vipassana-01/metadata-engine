@@ -50,6 +50,7 @@ class Engine:
 
 #Please define the appropriate video paths as given below
 video_paths = ["video1.mp4", "video2.mp4", "video3.mp4"]
+
 #Please mention the appropriate directory to save metadata
 metadata_dir = r"C:\Users\kinsh\Downloads\metadataframesforvideo1\video1.mp4"
 
