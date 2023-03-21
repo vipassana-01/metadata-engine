@@ -12,7 +12,6 @@ This system uses the YOLOv5 object detection model to detect people in a given v
 
 The system takes as input a video file and a directory path to save the metadata files. It uses OpenCV to read the frames from the video and passes each frame through the YOLOv5 model to detect people. The bounding box coordinates for the detected people are saved in a JSON file along with the frame number and the number of detected people in the frame.
 
-For visualization purposes, the system draws the bounding boxes around the detected people on each frame in real-time using OpenCV.
 
 ## Metadata Generated
 
