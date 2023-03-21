@@ -51,7 +51,7 @@ class Engine:
 #Please define the appropriate video paths as given below
 video_paths = ["video1.mp4", "video2.mp4", "video3.mp4"]
 
-#Please mention the appropriate directory to save metadata
+#Please mention the appropriate directories to save metadata
 metadata_dirs = [r"C:\Users\kinsh\Downloads\metadataframesforvideo1\metadata1",r"C:\Users\kinsh\Downloads\metadataframesforvideo1\metadata2",r"C:\Users\kinsh\Downloads\metadataframesforvideo1\metadata1"]
 
 # Loop through each video path and run the detection process using the Engine class
