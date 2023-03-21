@@ -14,12 +14,7 @@ The system takes as input a video file and a directory path to save the metadata
 
 For visualization purposes, the system draws the bounding boxes around the detected people on each frame in real-time using OpenCV.
 
-## How we Built it
-
-We built it using Python.
-
-
-## Metadata we generated
+## Metadata Generated
 
 * `frame_number`: the frame number of the current frame
 
