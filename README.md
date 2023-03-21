@@ -115,3 +115,25 @@ engine = Engine(video_path, metadata_dir)
 engine.run()
 ```
 The run method will display the video frames with the detected bounding boxes in a window. The detect_people method performs the same detection process but does not display the frames in a window.
+
+
+## Setup Instructions
+
+To set up the environment using pip, the user can run the following command in the terminal:
+
+```
+pip install -r requirements.txt
+```
+To set up the environment using conda,run the following command in the terminal:
+
+```bash
+conda env create -f environment.yml
+conda activate yolov5
+```
+After activating the environment, then run the Python script using the command:
+
+```
+python engine.py
+```
+
+> **Not**e: You should replace engine.py with the actual name of the Python script containing the code. Additionally, you should make sure that the video file and metadata directory exist and are accessible.
