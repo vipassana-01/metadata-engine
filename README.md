@@ -130,8 +130,12 @@ The run method will display the video frames with the detected bounding boxes in
 
 
 ## Setup Instructions
+Clone the Reporsitory
+```
+git clone "https://github.com/vipassana-01/metadata-engine"
+```
 
-To set up the environment using pip, the user can run the following command in the terminal:
+To set up the environment using pip, run the following command in the terminal:
 
 ```
 pip install -r requirements.txt
