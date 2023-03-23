@@ -56,6 +56,9 @@ metadata_dirs = [r"C:\Users\kinsh\Downloads\metadataframesforvideo1\metadata1",r
 
 # Loop through each video path and run the detection process using the Engine class
 for video_path, metadata_dir in zip(video_paths, metadata_dirs):
+    # Update metadata_dir to use the directory corresponding to the current video
+    metadata_dir = metadata_dir.replace(video_paths[0], video_path)
     engine = Engine(video_path, metadata_dir)
     engine.run()
+
 
